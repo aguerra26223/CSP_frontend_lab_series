@@ -5,7 +5,7 @@
 let x = 5;
 let y = "5";
 console.log(x + y);
-```
+``` 55
 Explain why that output occurs.
 
 2) Fix the bug so each line logs a number, not a string:
@@ -13,4 +13,4 @@ Explain why that output occurs.
 let a = "7";
 let b = "3";
 console.log(a + b);
-```
+``` 7

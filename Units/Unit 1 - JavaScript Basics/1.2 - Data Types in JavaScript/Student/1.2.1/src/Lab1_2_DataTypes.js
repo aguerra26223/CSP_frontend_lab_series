@@ -18,7 +18,7 @@ console.log("price:"+ price);
 console.log("5 + 3 =", 5 + 3);
 console.log("10 - 4 =", 10 - 4);
 console.log("6 * 7 =", 6 * 7);
-console.log("20 / 5 =", 20 / 5);
+console.log("20 / 5 =", 20 / 5);    
 
 console.log("2 ** 3 =", 2 ** 3);
 console.log("7 % 2 =", 7 % 2); 
@@ -57,9 +57,9 @@ let greeting = "Hello, I'm feeling sad today";
 console.log("Length of greeting:", greeting.length);
 
 // Access characters
-console.log("charAt(0):", greeting.charAt(0));
-console.log("charAt(5):", greeting.charAt(5));
-console.log("[3]:", greeting[3]);
+console.log("charAt(0):",greeting.charAt(0));
+console.log("charAt(5):",greeting.charAt(5));
+console.log("[3]:",greeting[3]);
 
 // indexOf
 console.log("Index of 'sad':", greeting.indexOf("sad"));
@@ -68,9 +68,9 @@ console.log("Index of 'sad':", greeting.indexOf("sad"));
 console.log("Repeat 3 times:", "Ha! ".repeat(3));
 
 // substring, substr, slice examples
-console.log("substring(0,5):", greeting.substring(0, 5));
-console.log("substr(7,5):", greeting.substr(7, 5));
-console.log("slice(7,12):", greeting.slice(7, 12));
+console.log("substring(0,5):",greeting.substring(0, 5));
+console.log("substr(7,5):",greeting.substr(7, 5));
+console.log("slice(7,12):",greeting.slice(7, 12));
 
 // 🚀 Stretch Goals
 // - Even number check using %
